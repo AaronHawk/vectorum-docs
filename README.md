@@ -12,7 +12,11 @@ This guide is for the customer service team and for anyone the tool is
 being shown to. Part 1 is the daily routine; Part 2 goes page by page; Part 3
 covers the pages customers see; Part 4 is for presenting it.
 
-> **Public documentation edition.** Production screenshots have been withheld because they may contain real order or tracking identifiers and staff details. The private application repository retains the original screenshots.
+> **About the screenshots.** They are real pages rendered from production
+> data on 14 October 2026, with every customer name, email, phone number,
+> street address and note swapped for made-up values ("Reese Stand-in",
+> `example.com`, `(555) …`, "Sample Street"). Order and tracking numbers,
+> carriers, dates and counts are real.
 
 ---
 
@@ -115,7 +119,7 @@ The menu along the top of every staff page:
 
 ## The daily digest email
 
-*[Production screenshot omitted from public edition]*
+![The daily digest email](images/digest.png)
 
 Sent each weekday morning. It contains:
 
@@ -141,7 +145,7 @@ change — say who.
 
 ## The board
 
-*[Production screenshot omitted from public edition]*
+![The board](images/board.png)
 
 The board is the work queue. From top to bottom:
 
@@ -192,7 +196,7 @@ Each flagged row has a **Resolve as…** menu with five reasons, and **Save**:
 
 After saving, the board says what was recorded, with an **Undo**:
 
-*[Production screenshot omitted from public edition]*
+![After resolving from the board](images/board-recorded.png)
 
 A resolved parcel leaves the board, but **comes back by itself if its problem
 gets worse** than what was judged — for example a "Stalled" parcel resolved
@@ -201,7 +205,7 @@ as a false alarm that later becomes "Lost". Everything resolved is listed on
 
 ### Filtering
 
-*[Production screenshot omitted from public edition]*
+![The board filtered to held parcels](images/board-filter-held.png)
 
 Clicking a card (here, *Held*) shows just those rows. The other cards keep
 their counts so you can see what you are hiding; the *Filtered to* bar has
@@ -209,7 +213,7 @@ a **Clear** link.
 
 ## A parcel's page
 
-*[Production screenshot omitted from public edition]*
+![A parcel's page](images/parcel-refused.png)
 
 Click any tracking number to get here. From the top:
 
@@ -264,7 +268,7 @@ each gap was.
 
 A delivered parcel with several parts looks like this:
 
-*[Production screenshot omitted from public edition]*
+![A delivered parcel with the order details filled in](images/parcel-delivered.png)
 
 ## What each flag means
 
@@ -303,7 +307,7 @@ Friday morning reads 0 on Monday and 1 on Tuesday.
 
 ## Search
 
-*[Production screenshot omitted from public edition]*
+![Search results](images/search.png)
 
 Type an order number, tracking number, customer name or email into the box
 on the board. Results get the same columns, sorting and filters as the
@@ -311,7 +315,7 @@ board, and each result is refreshed from the carrier before it is shown.
 
 ## Holds
 
-*[Production screenshot omitted from public edition]*
+![Holds](images/holds.png)
 
 Every open parcel the carrier is holding, **including the ones that are not
 flagged**. A customer calling about a held parcel will often be on this page
@@ -330,7 +334,7 @@ not flagged yet:
 
 ## Resolved
 
-*[Production screenshot omitted from public edition]*
+![Resolved](images/resolved.png)
 
 Everything somebody has judged: when, which parcel, what it was flagged as
 at the time, the verdict, who, and whether it is still settled. A parcel
@@ -339,7 +343,7 @@ shows that here.
 
 ## Returns
 
-*[Production screenshot omitted from public edition]*
+![Returns](images/returns.png)
 
 From the top:
 
@@ -359,7 +363,7 @@ and waiting over 30 days, for the last year.
 
 ## Email templates
 
-*[Production screenshot omitted from public edition]*
+![Email templates](images/templates.png)
 
 *Settings → Edit the templates.* The wording of every email the tool drafts:
 one per kind of problem, the return approval, and the automatic emails that
@@ -374,7 +378,7 @@ changes an email already sent. Every version is kept.
 
 ## Settings
 
-*[Production screenshot omitted from public edition]*
+![Settings](images/settings.png)
 
 | Section | What it does |
 |---|---|
@@ -390,7 +394,7 @@ These answer "how are we doing" rather than "what do I do now".
 
 ### Carriers
 
-*[Production screenshot omitted from public edition]*
+![Carrier performance](images/carriers.png)
 
 How each carrier and service actually performed over the last 90 days,
 measured from our own scans: how many we delivered, the typical number of
@@ -400,7 +404,7 @@ usually take".
 
 ### Coverage
 
-*[Production screenshot omitted from public edition]*
+![Coverage](images/coverage.png)
 
 What Vectorum can see, with today's numbers. **100% of this week's labels
 can be tracked**; the 1,248 older parcels it cannot track were printed on
@@ -410,7 +414,7 @@ that shipped without going through ShipHero.
 
 ### Shadow peak
 
-*[Production screenshot omitted from public edition]*
+![Shadow peak](images/shadow.png)
 
 Every customer notification the system *would* have sent, if automatic
 emails were on: how many, of what kind, which would go straight to the
@@ -422,7 +426,7 @@ mostly delivery confirmations.
 
 ### What it saves
 
-*[Production screenshot omitted from public edition]*
+![What it saves](images/wismo.png)
 
 How many "where is my order" questions the tracking page answered without
 anybody writing in. Counting started on 12 October, once staff visits were
@@ -431,7 +435,7 @@ emails link to the tracking page.
 
 ### Staff use
 
-*[Production screenshot omitted from public edition]*
+![Staff use](images/usage.png)
 
 Who opened what and who did anything — casework, returns handled, settings
 changed — by person, by week and by page. Reading is counted from
@@ -439,7 +443,7 @@ changed — by person, by week and by page. Reading is counted from
 
 ### People
 
-*[Production screenshot omitted from public edition]*
+![People](images/people.png)
 
 Everyone who has signed in. **Switch off** removes someone's access at their
 next click; it deletes nothing they did. You cannot switch off yourself, or
@@ -455,14 +459,14 @@ Customers reach it from **Track an order** on the shop, or from a link in
 their shipping email. They can type a tracking number, an order number or
 their email address — whichever they have.
 
-*[Production screenshot omitted from public edition]*
+![The lookup box](images/track-lookup.png)
 
 On the way, and delivered (shown at phone size, which is how most customers
 see it):
 
 | On the way | Delivered |
 |---|---|
-| *[Production screenshot omitted from public edition]* | *[Production screenshot omitted from public edition]* |
+| ![A parcel on the way](images/track-moving.png) | ![A delivered parcel](images/track-delivered.png) |
 
 What the page shows:
 
